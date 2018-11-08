@@ -1,0 +1,10 @@
+﻿-- Script Date: 11/1/2018 8:45 AM  - ErikEJ.SqlCeScripting version 3.5.2.75
+CREATE TABLE [Movies] (
+  [Id] int IDENTITY (1,1)  NOT NULL
+, [Title] nvarchar(100)  NOT NULL
+, [Genre] nvarchar(100)  NOT NULL
+, [Year] nvarchar(4)  NOT NULL
+);
+GO
+ALTER TABLE [Movies] ADD CONSTRAINT [PK_Movies] PRIMARY KEY ([Id]);
+GO

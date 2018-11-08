@@ -1,0 +1,2 @@
+﻿INSERT INTO Movies ([Title], [Genre], [Year])
+ VALUES ('Your Name', 'Drama', '2016');
